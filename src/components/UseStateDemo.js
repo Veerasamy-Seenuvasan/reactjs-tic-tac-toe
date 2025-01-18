@@ -4,7 +4,7 @@ export default function UseStateDemo() {
     const [counter,setCounter] = useState(5);
   return (
     <div>
-      <span>counter</span>
+      <span>{counter}</span>
       <button onClick={()=>{
         setCounter(counter+5);
         setCounter(counter+5);
