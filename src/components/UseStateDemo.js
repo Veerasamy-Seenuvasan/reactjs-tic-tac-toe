@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 export default function UseStateDemo() {
-    const {counter,setCounter} = useState(5);
+    const [counter,setCounter] = useState(5);
   return (
     <div>
       <span>counter</span>
