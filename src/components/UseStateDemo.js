@@ -13,6 +13,14 @@ export default function UseStateDemo() {
         setCounter(counter+5);
 
       }}>Increment</button>
+      <button onClick={()=>{
+        setCounter(counter => counter+5);
+        setCounter(counter => counter+5);
+        alert(counter);
+        setCounter(counter => counter+5);
+        setCounter(counter => counter+5);
+
+      }}>Increment 2</button>
     </div>
   )
 }
