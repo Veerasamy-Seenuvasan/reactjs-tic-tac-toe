@@ -13,9 +13,10 @@ export default class UseStateDemoClass extends Component {
       { counter: this.state.counter + 5 },
       () => {
         this.setState({ counter: this.state.counter + 5 });
-        alert(this.state.counter);
+        alert(this.state.counter);//alert with 10
         this.setState({ counter: this.state.counter + 5 });
         this.setState({ counter: this.state.counter + 5 });
+        //final counter value is 15
       }
     );
   };
