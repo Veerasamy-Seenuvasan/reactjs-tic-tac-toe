@@ -23,6 +23,7 @@ export default function UseStateDemo() {
       <button onClick={()=>{
         setCounter(counter => counter+5);
         setCounter(counter => counter+5);
+        alert(counter);
         setCounter(counter => counter+5);
         setCounter(counter => counter+5);
 
