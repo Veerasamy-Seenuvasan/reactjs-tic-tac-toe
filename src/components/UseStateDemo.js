@@ -19,7 +19,7 @@ export default function UseStateDemo() {
         setCounter(counter+5);
         setCounter(counter+5);
 
-      }}>Increment</button> {/* Alert with 5, final counter value 10 */}
+      }}>Increment 1</button> {/* Alert with 5, final counter value 10 */}
       <button onClick={()=>{
         setCounter(counter => counter+5);
         setCounter(counter => counter+5);
